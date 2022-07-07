@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+
+@font-face {
+  font-family: "TeX Gyre Adventor";
+  src: url("TeX-Gyre-Adventor/texgyreadventor-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TeX Gyre Adventor";
+  font-weight: bold;
+  src: url("TeX-Gyre-Adventor/texgyreadventor-bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TeX Gyre Adventor";
+  font-weight: bold;
+  font-style: italic;
+  src: url("TeX-Gyre-Adventor/texgyreadventor-bolditalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TeX Gyre Adventor";
+  font-style: italic;
+  src: url("TeX-Gyre-Adventor/texgyreadventor-italic.otf") format("opentype");
+}
+
+html {
+  background-color: black;
+  color: white;
+  font-family: "TeX Gyre Adventor", "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;
+}
+
+body {
+  /* width: 100%; */
+  /* margin: 5vw; */
+}
+    img {
+      max-width: 100%;
+      /* min-width: 100%; */
+      margin: auto;
+      display: block;
+    }
+
+.textOnImage {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: black;
+  margin-top: 0px;
+  /* padding: 15px; */
+  padding: 1vh;
+  font-family: "TeX Gyre Adventor", "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;
+  /* box-shadow: 0 0 0 5px #00525E; */
+  /* font-size: max(8vw, 16px); */
+  /* text-shadow: 1px 1px #000; */
+  background: hsl(0 0% 100% / .1);
+  backdrop-filter: blur(.5rem);
+  border-radius: 6px;
+  font-weight: normal;
+  text-transform: uppercase;
+  max-width: 100%
+}
+
+.gallery {
+  background-color: black;
+}
+
+.galleryItem {
+  position: relative;
+  margin-bottom: 5vw;
+}
+
+.galleryItem img {
+  min-width: 100%;
+}
+
+.textbackground {
+  background-color: black;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+header {
+padding-top: 19vw;
+padding-top: 55vw;
+padding-left: 0;
+margin-left: 5px;
+font-weight: normal;
+font-size: 6vw;
+/* color: #00525E;
+text-shadow: .2vw .2vw white; */
+
+}
+
+#crazy-creek-timber-frames {
+  margin-bottom: 0;
+}
+
+#products {
+  text-align: center;
+  font-weight: normal;
+  font-size: clamp(2rem, 12vw, 6rem);
+
+}
+
+body {
+  background: url("31596726899084.jpg") no-repeat top center fixed;
+  /* background: url("4-9-21-Summer-Milky-Way-over-JTree-1-scaled.jpg") no-repeat top center fixed; */
+  background-size: contain;
+  font-family: "TeX Gyre Adventor", "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;
+  font-weight: lighter;
+}
+
+#navbar {
+  background-color: black;
+  z-index: 10;
+
+
+}
+
+
+.topnav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 900px;
+}
+
+/* .topSection {
+  display: flex;
+} */
+
+.blurb {
+  margin: auto;
+  max-width: 600px;
+  padding: 2em;
+}
+
+.topnav li {
+  padding: 5px;
+  font-size: calc(1rem + 2vw);
+  text-transform: capitalize;
+  /* border-style: solid;
+  border-color: red; */
+}
+
+.topnav a {
+  text-decoration: none;
+  color: #FCA41C;
+
+}
+
+#logo {
+  width: calc(1.6rem + 2vw);
+  min-width: 2rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryItem {
+  /* border: solid;
+  border-color: red; */
+  margin: 0;
+  max-width: 48%;
+
+
+}
+
+
+@media only screen and (max-width:500px) {
+  .galleryItem {
+    max-width: 500px;
+  }
+  .textOnImage {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .sticky {
+    position: relative;
+  }
+
+.topnav {
+  flex-direction: column;
+}
+
+}
+
+  </style>
+</head>
+<body>
+  <!-- <img src="paralaxscrollhouse.png"> -->
+<header><h1 id='crazy-creek-timber-frames'>Crazy Creek Timber Frames</h1></header>
+
+<div class="textbackground">
+
+<nav id="navbar">
+  <ul class="topnav">
+    <li> <a href="index.html"><img src="images/cclogo.png" id="logo"></a></li>
+    <li> <a href="tel:+14039383715">403.938.3715</a> </li>
+    <li> <a href="mailto:info@crazycreek.ab.ca">email</a></li>
+    <li> <a href="gallery.html">gallery</a></li>
+  </ul>
+</nav>
+
+
+<div class="topSection">
+
+<div class="blurb">
+<h2>About</h2>
+  <p>For almost 26 years now, we have been creating beautiful and unique Alberta timber frames. Our past projects have included private residences, commercial buildings, Polo Stables, a Church and even a Best Western Hotel.</p>
+  <p>Our timber frames have been shipped throughout Canada, the US Pacific Northwest, Montana, and even Japan.</p>
+</div>
+
+
+<div class="blurb">
+<h2 id='design'>Design</h2>
+<p>We can design and build any timber frame, to any budget, for any home you have in mind. We do not offer a &#39;plan book&#39;. A timber frame house is as original as the homeowner, and we would like to custom design your home to fit your current and future plans. </p>
+<p>There are not many construction constraints on framing a timber frame home like on a conventionally framed home, so you can be creative and do almost anything you want!</p>
+<p><img src="images/alaska_frame.gif" referrerpolicy="no-referrer" alt="alaska_frame"</p>
+<p>It can be very hard to visualize your timber frame home but with our 3-D isometric drawings and video fly-throughs you can see exactly what it will look like from various different views.</p>
+</div>
+
+</div>
+
+
+
+
+<h1 id='products'>Products</h1>
+<div class="gallery">
+<div class="galleryItem"><h3 id='big-rock-show-home' class="textOnImage">Frames</h3><img src="drayton-valley/IMG_2783.JPG"></div>
+<div class="galleryItem"><h3 class="textOnImage">Entries</h3>
+<img src="sylvan-lake/IMG_03342.JPG"></div>
+<div class="galleryItem"><h3 class="textOnImage">Pergolas</h3>
+<img src="foothills3/IMG_5652.JPG"></div>
+<div class="galleryItem"><h3 class="textOnImage">Trusses</h3>
+<img src="chestermere/IMG_2692.JPG"></div>
+
+<div class="galleryItem">
+<img src="lyalta/IMG_0325.JPG">
+<h3 class="textOnImage">Interiors</h3>
+</div>
+</div>
+
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
